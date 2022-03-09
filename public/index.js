@@ -204,13 +204,13 @@ plane6.rotation.x = -11;
 // plane3.rotation.y = 1;
 plane6.position.set(-15,0,5); 
 //sphere01
-const sfgeometry = new THREE.SphereGeometry( 4, 3, 13,2,2,2,6 );
-const sfmaterial = new THREE.MeshBasicMaterial( { color: new THREE.Color("#20c997") } );
-const sphere01 = new THREE.Mesh( sfgeometry, sfmaterial );
-scene.add( sphere01 );
-sphere01.rotation.x = -11;
+//const sfgeometry = new THREE.SphereGeometry( 4, 3, 13,2,2,2,6 );
+//const sfmaterial = new THREE.MeshBasicMaterial( { color: new THREE.Color("#20c997") } );
+//const sphere01 = new THREE.Mesh( sfgeometry, sfmaterial );
+//scene.add( sphere01 );
+//sphere01.rotation.x = -11;
 
-sphere01.position.set(-15,2,5); 
+//sphere01.position.set(-15,2,5); 
 //box1
 const box1Geometry = new THREE.BoxGeometry(0.1,0.5,1.6);
 const box1Material = new THREE.MeshBasicMaterial({
